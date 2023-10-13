@@ -1,0 +1,19 @@
+{
+  "name": "testing-issues",
+  "version": "1.0.0",
+  "description": "This sketch was something of a diversion where I experimented with implementing the Loop Subdivision algorithm to smooth out my shapes, and perhaps simplify the creation of the creatures by allowing me to focus on the large scale overall shape.",
+  "main": "babylon_driver.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "export": "webpack --mode production",
+    "test": " jest"
+  },
+  "author": "Christopher Andrews <candrews@middlebury.edu>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
